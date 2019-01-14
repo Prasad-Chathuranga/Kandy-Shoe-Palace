@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
+  border-bottom: black 1px solid;
   
   
 }
@@ -49,6 +49,29 @@ background: #fff;
   49%{    color:rebeccapurple }
   99%{    color:red }
   100%{   color: red    }
+}
+
+/*** index banners ***/
+
+.inner{
+  overflow: hidden; 
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+
+  transform: scale(1.5);
+
+}
+
+/*****************************************/
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+
 }
 
 

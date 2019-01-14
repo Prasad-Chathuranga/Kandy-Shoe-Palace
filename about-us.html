@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
-  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="styles/myStyle.css" rel="stylesheet">
 
 </head>
 
@@ -21,39 +21,54 @@
 
   <!---------------------------- Navigation Bar ------------------------>
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">
-        <i class="fab fa-accusoft"></i> Kandy Shoe Palace | Sri Lanka</a>
-
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">HOME</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="#services-head-section" class="nav-link">CATEGORIES</a>
-          </li>
-
-
-
-          <li class="nav-item">
-            <a href="about-us.html" class="nav-link">ABOUT US</a>
-          </li>
-
-          <li class="nav-item"><a href="contact-us.html" class="nav-link">CONTACT US</a></li>
-
-
-        </ul>
+  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" id="main-nav">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <i class="fab fa-accusoft"></i> Kandy Shoe Palace | Sri Lanka</a>
+  
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+  
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  CATEGORIES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">MEN'S STORE</a>
+                  <a class="dropdown-item" href="#">WOMEN'S STORE</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">NEW ARRIVALS</a>
+                  <a class="dropdown-item" href="#">SALES & OFFERS</a>
+                </div>
+              </li>
+  
+  
+  
+            <li class="nav-item">
+              <a href="about-us.html" class="nav-link">ABOUT US</a>
+            </li>
+  
+            <li class="nav-item"><a href="contact-us.html" class="nav-link">CONTACT US</a></li>
+            <br>
+            <form class="form-inline my-2 my-lg-0">
+              <br>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+  
+  
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
+    </nav>
   <!-- Page Content -->
   <div class="container">
 
@@ -108,7 +123,8 @@
 <!--------------------------------------------------->
 <br>
 <!-- Explore Section -->
-<section id="whatwedo-section"class="bg-dark text-warning">
+<hr>
+<section id="whatwedo-section"class="bg-light text-primary">
     <div class="container">
       <!-- need only one row -->
       <div class="row">
@@ -124,6 +140,7 @@
       
     </div>
   </section>
+  <hr>
 
   <div class="row">
       <!-- Map Column -->
@@ -183,23 +200,23 @@
   </div>
   <!-- /.container -->
 
-  
 
   <!------------- Footer Section ----------->
 
-  <footer class="bg-dark ">
+  <hr>
+  <footer class="bg-light ">
     <div class="container">
       <div class="row">
-        <div class="col text-center text-light  py-4">
+        <div class="col text-center  text-black  py-4">
           <h5><i class="fab fa-accusoft"></i> Kandy Shoe Palace | Sri Lanka</i></h5>
 
           <p>
-            Copyright &copy;<span id="year"> 2019 </span><br>
+            <span>Copyright &copy;</span><span id="year"> 2019 </span><br>
             Powered By <img src="./images/Webp.net-resizeimage.png" />
           </p>
-          <a href=""><i class="fab fa-facebook-f fa-2x "></i></a>
-          <a href=""><i class="far fa-envelope fa-2x"></i></i></a>
-          <a href=""><i class="fab fa-youtube fa-2x"></i></i></a>
+
+
+
 
         </div>
       </div>
