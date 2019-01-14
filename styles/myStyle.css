@@ -9,16 +9,10 @@
   
 }
 
-#home-section {
-  background-image: url('../images/office-594132_1280.jpg');  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 80vh;
-  
-}
 
-#home-section.dark-overlay {
+
+
+#overlay.dark-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,11 +20,7 @@
   background-color: rgba(0, 0, 0, 0, 0.8);
 }
 
-#home-section {
 
-  padding-top: 100px;
-  min-height: 100vh;
-}
 
 #home-section.fas{
 color:cornflowerblue;
@@ -38,9 +28,7 @@ background: #fff;
 
 }
 
-img .img-front{
-  margin-top: 10px;
-}
+
 
 /********* New Arrivals Style *****************/
 
@@ -49,6 +37,18 @@ img .img-front{
  font-family: 'Thasadith', sans-serif;
   
   
+}
+
+/********* index blink *****************/
+
+.blinking{
+  animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: #000;    }
+  49%{    color:rebeccapurple }
+  99%{    color:red }
+  100%{   color: red    }
 }
 
 
