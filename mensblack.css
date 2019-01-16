@@ -49,6 +49,10 @@ img {vertical-align: middle;}
   background:url(./images/menshoes/mensbackground.jpg)
 }
 
+#menstopic{
+  font-family: 'Playfair Display', serif;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
